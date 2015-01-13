@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_v2"
+    android:orientation="vertical" >
+
+    <!-- Name Label -->
+
+
+    <!-- Zone Name -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_marginTop="120dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nom du produit:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/P_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back"
+            android:textSize="17dip" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/P_Desc"
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/back"
+            android:textSize="17dip" />
+    </LinearLayout>
+
+    <!-- Price Label -->
+
+
+    <!-- Zone Price -->
+
+
+    <!-- Description Label -->
+
+
+    <!-- Zone description -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="112dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Prix:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/P_Price"
+            android:layout_width="91dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.02"
+            android:background="@drawable/back"
+            android:gravity="center_vertical|center_horizontal"
+            android:paddingTop="2dp"
+            android:textSize="19sp" />
+
+    </LinearLayout>
+
+    <!-- Zone Stock -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_marginBottom="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="35dp"
+            android:text="Code barre:"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/P_Ean13"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/back"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/holo_green_dark"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|fill_vertical"
+        android:layout_marginBottom="30dp" >
+
+        <Button
+            android:id="@+id/btnCommand"
+            android:layout_width="106dp"
+            android:layout_height="41dp"
+            android:background="@drawable/button"
+            android:text="Commander"
+            android:textColor="@android:color/white"
+            android:textSize="17dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnBackMenu"
+            android:layout_width="126dp"
+            android:layout_height="41dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/button"
+            android:text="Retour Menu"
+            android:textColor="@android:color/white"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

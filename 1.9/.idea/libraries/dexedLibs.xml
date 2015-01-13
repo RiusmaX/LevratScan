@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="dexedLibs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/LevratScan/bin/dexedLibs/core-6b650e1e10f6d1cd740a411bd1ae3c27.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LevratScan/bin/dexedLibs/zxing lib android-1e4dd0a7891948934f36437607225b3b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LevratScan/bin/dexedLibs/core-d6ed2e15d7f465cedbfb9d188f636d1b.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LevratScan/bin/dexedLibs/zxing lib android-572b637424a9f73b4d53c51d3d108781.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LevratScan/bin/dexedLibs/android-support-v4-7d921be1cd5ba8ca1f10f9797626f889.jar!/" />
+      <root url="jar://$PROJECT_DIR$/LevratScan/bin/dexedLibs/android-support-v4-d826dbdac06f5d0fee6abfb4b1baad4d.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
